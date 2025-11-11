@@ -33,9 +33,9 @@ export default function App() {
   }
 
   return (
-    <div style={{ width: "100%", backgroundColor: "#0f0f0f" }}>
+    <div style={{ paddingTop:"2rem", width: "100%", backgroundColor: "#0f0f0f" }}>
       <div className="app">
-        <h1 className="white-bg sideMargin">Listado de Películas:</h1>
+        <h1 className="white-bg sideMargin" style={{marginTop:"0"}}>Listado de Películas:</h1>
 
         <div
           className="sideMargin"

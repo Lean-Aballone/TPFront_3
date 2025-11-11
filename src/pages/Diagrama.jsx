@@ -4,7 +4,7 @@ const Diagrama = () => {
     return (
         <main className="flex" style={{flexDirection:"column", flexWrap:"noWrap", backgroundColor:"#0f0f0f"}}>
             <h1 className="white-bg" style={{color:"white", padding: "1rem", margin:"1rem"}}>Árbol de Renderizado</h1>
-            <iframe src="/RenderDiagram.drawio.html" style={{height:"100%",width:"100%"}}></iframe>
+            <iframe src="/RenderDiagram.drawio.html" style={{height:"50vh",width:"100%"}}></iframe>
             <h1 className="white-bg" style={{color:"white", padding: "1rem", margin:"1rem"}}>Organización de Carpetas:</h1>
             <pre style={{
                 whiteSpace: "pre",
