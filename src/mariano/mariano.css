@@ -1,0 +1,429 @@
+.mariano-page {
+  --mariano-bg: linear-gradient(135deg, #f3f6ff 0%, #f2f1ff 45%, #fef9ff 100%);
+  --mariano-card-bg: rgba(255, 255, 255, 0.85);
+  --mariano-card-border: rgba(118, 75, 162, 0.28);
+  --mariano-text: #1e1b2e;
+  --mariano-text-muted: #5c5480;
+  --mariano-chip-bg: rgba(118, 75, 162, 0.15);
+  --mariano-chip-fg: #5b21b6;
+  --mariano-accent: #8b5cf6;
+  --mariano-button-bg: rgba(139, 92, 246, 0.14);
+  --mariano-button-fg: #312e81;
+  --mariano-button-border: rgba(118, 75, 162, 0.35);
+  --mariano-highlight: rgba(236, 201, 75, 0.28);
+  --mariano-surface-subtle: rgba(139, 92, 246, 0.08);
+  --mariano-surface-strong: rgba(139, 92, 246, 0.16);
+  --mariano-button-shadow-color: rgba(139, 92, 246, 0.18);
+  --mariano-shadow: 0 18px 40px rgba(118, 75, 162, 0.16);
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  padding: 3rem clamp(1.5rem, 3vw, 3.2rem);
+  min-height: 100vh;
+  background: var(--mariano-bg);
+  color: var(--mariano-text);
+}
+
+.mariano-page--midnight {
+  --mariano-bg: linear-gradient(135deg, #0f172a 0%, #111827 55%, #020617 100%);
+  --mariano-card-bg: rgba(17, 24, 39, 0.75);
+  --mariano-card-border: rgba(96, 165, 250, 0.22);
+  --mariano-text: #f9fafc;
+  --mariano-text-muted: #cbd5f5;
+  --mariano-chip-bg: rgba(59, 130, 246, 0.18);
+  --mariano-chip-fg: #bfdbfe;
+  --mariano-accent: #60a5fa;
+  --mariano-button-bg: rgba(59, 130, 246, 0.14);
+  --mariano-button-fg: #bfdbfe;
+  --mariano-button-border: rgba(59, 130, 246, 0.28);
+  --mariano-highlight: rgba(96, 165, 250, 0.25);
+  --mariano-surface-subtle: rgba(59, 130, 246, 0.1);
+  --mariano-surface-strong: rgba(59, 130, 246, 0.22);
+  --mariano-button-shadow-color: rgba(59, 130, 246, 0.24);
+  --mariano-shadow: 0 25px 45px rgba(15, 23, 42, 0.45);
+}
+
+.mariano-page--forest {
+  --mariano-bg: linear-gradient(135deg, #f0fff4 0%, #dcfce7 45%, #f8fafc 100%);
+  --mariano-card-border: rgba(34, 197, 94, 0.25);
+  --mariano-chip-bg: rgba(34, 197, 94, 0.16);
+  --mariano-chip-fg: #047857;
+  --mariano-accent: #10b981;
+  --mariano-button-bg: rgba(16, 185, 129, 0.14);
+  --mariano-button-fg: #0f766e;
+  --mariano-button-border: rgba(16, 185, 129, 0.28);
+  --mariano-highlight: rgba(134, 239, 172, 0.35);
+  --mariano-surface-subtle: rgba(16, 185, 129, 0.12);
+  --mariano-surface-strong: rgba(16, 185, 129, 0.24);
+  --mariano-button-shadow-color: rgba(16, 185, 129, 0.22);
+  --mariano-shadow: 0 18px 38px rgba(16, 185, 129, 0.16);
+}
+
+.mariano-page--sunrise {
+  --mariano-bg: linear-gradient(135deg, #fff7ed 0%, #fef3c7 45%, #fff1f2 100%);
+  --mariano-card-border: rgba(244, 114, 182, 0.25);
+  --mariano-chip-bg: rgba(251, 146, 60, 0.22);
+  --mariano-chip-fg: #ea580c;
+  --mariano-accent: #fb7185;
+  --mariano-button-bg: rgba(251, 113, 133, 0.16);
+  --mariano-button-fg: #be123c;
+  --mariano-button-border: rgba(251, 113, 133, 0.28);
+  --mariano-highlight: rgba(252, 211, 77, 0.32);
+  --mariano-surface-subtle: rgba(251, 113, 133, 0.14);
+  --mariano-surface-strong: rgba(251, 113, 133, 0.24);
+  --mariano-button-shadow-color: rgba(251, 113, 133, 0.3);
+  --mariano-shadow: 0 18px 38px rgba(251, 113, 133, 0.16);
+}
+
+.mariano-page__grid {
+  display: grid;
+  gap: clamp(2rem, 4vw, 3rem);
+  align-items: start;
+}
+
+@media (min-width: 1024px) {
+  .mariano-page__grid {
+    grid-template-columns: minmax(0, 260px) minmax(0, 1fr);
+  }
+}
+
+.mariano-nav {
+  position: sticky;
+  top: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
+  padding: clamp(1.25rem, 2vw, 1.8rem);
+  border-radius: 20px;
+  border: 1px solid var(--mariano-card-border);
+  background: var(--mariano-card-bg);
+  box-shadow: var(--mariano-shadow);
+  backdrop-filter: blur(18px);
+}
+
+.mariano-nav__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.mariano-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  padding: 0.6rem 1.2rem;
+  border-radius: 16px;
+  border: 1px solid var(--mariano-button-border);
+  background: var(--mariano-button-bg);
+  color: var(--mariano-button-fg);
+  font-weight: 600;
+  font-size: 0.95rem;
+  letter-spacing: 0.01em;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.mariano-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 16px 24px var(--mariano-button-shadow-color);
+}
+
+.mariano-button:focus-visible {
+  outline: 3px solid var(--mariano-accent);
+  outline-offset: 3px;
+}
+
+.mariano-button__caption {
+  font-size: 0.85rem;
+  color: var(--mariano-text-muted);
+}
+
+.mariano-nav__links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 0.5rem;
+}
+
+.mariano-nav__link {
+  display: block;
+  padding: 0.5rem 0.8rem;
+  border-radius: 14px;
+  font-weight: 600;
+  color: var(--mariano-text);
+  letter-spacing: 0.01em;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.mariano-nav__link:hover,
+.mariano-nav__link:focus-visible {
+  background: var(--mariano-surface-strong);
+  transform: translateX(4px);
+}
+
+.mariano-content {
+  display: grid;
+  gap: clamp(1.75rem, 2.2vw, 2.4rem);
+}
+
+.mariano-card {
+  padding: clamp(1.75rem, 2.5vw, 2.4rem);
+  border-radius: 28px;
+  background: var(--mariano-card-bg);
+  border: 1px solid var(--mariano-card-border);
+  box-shadow: var(--mariano-shadow);
+  backdrop-filter: blur(16px);
+  color: var(--mariano-text);
+}
+
+.mariano-card__header {
+  display: grid;
+  gap: 0.6rem;
+  margin-bottom: 1.5rem;
+}
+
+.mariano-card__title {
+  margin: 0;
+  font-size: clamp(1.5rem, 2.1vw, 1.85rem);
+}
+
+.mariano-card__lead {
+  margin: 0;
+  color: var(--mariano-text-muted);
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.mariano-card__body {
+  display: grid;
+  gap: 1rem;
+  color: var(--mariano-text-muted);
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+.mariano-hero {
+  display: grid;
+  gap: clamp(1.5rem, 2.5vw, 2.8rem);
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .mariano-hero {
+    grid-template-columns: minmax(0, 240px) minmax(0, 1fr);
+  }
+}
+
+.mariano-hero__avatar {
+  margin: 0;
+  display: grid;
+  place-items: center;
+  position: relative;
+}
+
+.mariano-hero__avatar::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 32px;
+  background: linear-gradient(135deg, rgba(96, 165, 250, 0.6), rgba(236, 72, 153, 0.35));
+  filter: blur(24px);
+  opacity: 0.85;
+  z-index: 0;
+}
+
+.mariano-hero__avatar::after {
+  content: "";
+  position: absolute;
+  inset: -10%;
+  border-radius: 40px;
+  background: conic-gradient(
+    from 45deg,
+    rgba(96, 165, 250, 0.25),
+    rgba(236, 72, 153, 0.35),
+    rgba(14, 165, 233, 0.3),
+    rgba(96, 165, 250, 0.25)
+  );
+  filter: blur(18px);
+  opacity: 0.75;
+  z-index: 0;
+}
+
+.mariano-hero__avatar img {
+  width: min(240px, 100%);
+  border-radius: 32px;
+  object-fit: cover;
+  box-shadow: 0 18px 35px rgba(118, 75, 162, 0.28);
+  position: relative;
+  z-index: 1;
+  border: 2px solid rgba(96, 165, 250, 0.35);
+}
+
+.mariano-hero__content {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.mariano-hero__title {
+  margin: 0;
+  font-size: clamp(2rem, 3vw, 2.75rem);
+  letter-spacing: -0.01em;
+}
+
+.mariano-hero__meta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin: 0;
+  font-weight: 600;
+  color: var(--mariano-text-muted);
+}
+
+.mariano-hero__summary {
+  margin: 0;
+  color: var(--mariano-text-muted);
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+.mariano-chip {
+  justify-self: start;
+  padding: 0.4rem 0.85rem;
+  border-radius: 999px;
+  background: var(--mariano-chip-bg);
+  color: var(--mariano-chip-fg);
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.mariano-tag-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  padding: 0;
+  margin: 0;
+}
+
+.mariano-tag {
+  padding: 0.5rem 1.1rem;
+  border-radius: 999px;
+  background: var(--mariano-surface-subtle);
+  color: var(--mariano-text);
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  border: 1px solid transparent;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.mariano-tag:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 18px var(--mariano-surface-strong);
+}
+
+.mariano-interest-grid {
+  display: grid;
+  gap: 1.25rem;
+}
+
+@media (min-width: 768px) {
+  .mariano-interest-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+.mariano-interest {
+  padding: 1.4rem;
+  border-radius: 20px;
+  background: var(--mariano-surface-subtle);
+  border: 1px solid transparent;
+  transition: border 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.mariano-interest__title {
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+  font-size: 1.15rem;
+  font-weight: 700;
+}
+
+.mariano-simple-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 0.55rem;
+  color: var(--mariano-text-muted);
+  font-size: 1rem;
+}
+
+.mariano-quote__content {
+  margin: 0;
+  font-size: clamp(1.4rem, 2.4vw, 1.85rem);
+  font-weight: 600;
+  color: var(--mariano-text);
+  text-align: center;
+}
+
+.mariano-curiosity {
+  display: grid;
+  gap: 1.6rem;
+}
+
+.mariano-curiosity__header {
+  margin-bottom: 0;
+}
+
+.mariano-curiosity__body {
+  display: grid;
+  gap: 0.8rem;
+  padding: 1.4rem;
+  border-radius: 20px;
+  background: var(--mariano-surface-subtle);
+  border: 1px solid rgba(255, 255, 255, 0.04);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.02);
+}
+
+.mariano-curiosity__label {
+  font-size: 0.95rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--mariano-accent);
+}
+
+.mariano-curiosity__text {
+  margin: 0;
+  color: var(--mariano-text-muted);
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+.mariano-button--ghost {
+  justify-self: start;
+  border: 1px solid var(--mariano-button-border);
+  background: transparent;
+  color: var(--mariano-button-fg);
+}
+
+.mariano-button--ghost:hover {
+  background: var(--mariano-surface-subtle);
+}
+
+.is-highlighted {
+  border-color: rgba(236, 201, 75, 0.45);
+  background: var(--mariano-highlight);
+  box-shadow: 0 16px 32px rgba(236, 201, 75, 0.18);
+  transform: translateY(-3px);
+}
+
+@media (max-width: 768px) {
+  .mariano-page {
+    padding-block: 2.5rem 3rem;
+  }
+
+  .mariano-nav {
+    position: static;
+  }
+}

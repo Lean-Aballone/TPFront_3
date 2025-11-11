@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "titulo": "Reunión 1",
+    "fecha": "Día 03/09/2025",
+    "info": "Se leyó la consigna del TP1 y se creó el repositorio en GitHub junto con la configuración en Vercel. Se decidió la interacción de JavaScript para el menú desplegable y el modo oscuro mediante un botón. También se discutió la estructura general del index. Además, se definió el formato de la página principal y se estableció una plantilla para las tarjetas personales."
+  },
+  {
+    "id": 2,
+    "titulo": "Reunión 2",
+    "fecha": "Día 07/09/2025",
+    "info": "Se planteó la paleta de colores y se eligió un tema para cada página personal, en función del contenido que subiría cada integrante."
+  },
+  {
+    "id": 3,
+    "titulo": "Reunión 3",
+    "fecha": "Día 12/09/2025",
+    "info": "Se trabajó en la definición de media queries para mejorar la adaptación a distintos dispositivos y se redefinió la página de entrada."
+  },
+  {
+    "id": 4,
+    "titulo": "Reunión 4",
+    "fecha": "Día 18/09/2025",
+    "info": "En la última reunión del equipo se revisaron los avances logrados hasta el momento y se definieron las tareas pendientes para la entrega final."
+  },
+    {
+    "id": 5,
+    "titulo": "Reunión 5",
+    "fecha": "Día 08/10/2025",
+    "info": "Se revisaron detalles de diseño y funcionamiento de las tarjetas personales, y se ajustaron estilos para distintos dispositivos."
+  },
+  {
+    "id": 6,
+    "titulo": "Reunión 6",
+    "fecha": "Día 12/10/2025",
+    "info": "Se comenzó la refactorización del proyecto a React, como lo exige la consigna. Se creó la estructura base y se configuró el entorno."
+  },
+  {
+    "id": 7,
+    "titulo": "Reunión 7",
+    "fecha": "Día 16/10/2025",
+    "info": "Se avanzó con la división en componentes. Se implementaron rutas para cada página y se reutilizaron los estilos existentes."
+  },
+  {
+    "id": 8,
+    "titulo": "Reunión 8",
+    "fecha": "Día 19/10/2025",
+    "info": "Se realizaron pruebas generales, se corrigieron errores menores y se ajustaron los estilos en los nuevos componentes en React."
+  }
+]

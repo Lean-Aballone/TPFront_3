@@ -1,0 +1,41 @@
+.bitacoraBackground {
+	padding: 0;
+	background-color: var(--bg-main);
+	background-image: url("../assets/img/pexels-bibekghosh-14553705.jpg");
+	background-repeat: no-repeat;
+	margin: 0;
+	background-size: cover;
+	background-attachment: local;
+	background-attachment: scroll;
+	background-position: 0% 83%;
+}
+.containerBitacora {
+	margin: 1rem;
+	padding: 1rem .5rem;
+}
+.sectionBitacora {
+	background: #fff;
+	color: #111;
+}
+.bitacoraStyle {
+    overflow: hidden;
+	border-radius: 10px 10px 10px 10px;
+	background-color: rgba(200, 200, 200, 0.637);
+}
+
+#sectionBitacora > article {
+	margin: 0.3rem;
+	padding: 1rem;
+	border-radius: 10px 10px 10px 10px;
+	background-color: rgba(233, 233, 233, 0.589);
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Plus Jakarta Sans","Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+	letter-spacing: -0.015em;
+	color: inherit;
+}
+
+#sectionBitacora h3, h4 {
+	margin: 0.3rem auto;
+}
