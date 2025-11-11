@@ -13,7 +13,7 @@ const Home = () => {
         subtitulo={"Instituto de Formación Técnica Superior N° 29"}
         grupo={"Grupo 14"}
         bienvenida={
-          "Bienvenidos a nuestra segunda entrega del trabajo práctico para Desarrollo Web. En esta ocasión migramos el trabajo práctico anterior a React + Vite. Los invitamos a ver cómo las iremos implementando a lo largo de las entregas."
+          "Bienvenidos a nuestra tercera y última entrega para Desarrollo Web. En esta ocasión, presentamos el cierre del trabajo práctico, incorporando las mejoras finales sobre la plataforma que migramos a React + Vite. Nos hemos enfocado en refinar la funcionalidad y la usabilidad. Los invitamos a ver cómo hemos implementado estas mejoras finales."
         }
       />
       <Integrantes />
