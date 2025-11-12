@@ -46,5 +46,23 @@
     "titulo": "Reunión 8",
     "fecha": "Día 19/10/2025",
     "info": "Se realizaron pruebas generales, se corrigieron errores menores y se ajustaron los estilos en los nuevos componentes en React."
+  },
+    {
+    "id": 9,
+    "titulo": "Reunión 9",
+    "fecha": "Día 22/10/2025",
+    "info": "Se acordó el plan final de trabajo para la entrega. Se asignaron tareas específicas a cada integrante y se estableció un cronograma para completar los últimos ajustes del proyecto."
+  },
+  {
+    "id": 10,
+    "titulo": "Reunión 10",
+    "fecha": "Día 30/10/2025",
+    "info": "Se realizaron las tareas planificadas: se optimizó el rendimiento del sitio, se revisaron los componentes en React y se mejoró la navegación general. También se verificó la correcta visualización en distintos dispositivos."
+  },
+  {
+    "id": 11,
+    "titulo": "Reunión 11",
+    "fecha": "Día 09/11/2025",
+    "info": "Se preparó la entrega final. Se comprobó el funcionamiento completo del proyecto, se corrigieron pequeños detalles de diseño y se generó la versión definitiva para subir al repositorio y presentar."
   }
 ]
