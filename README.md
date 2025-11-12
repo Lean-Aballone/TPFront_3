@@ -1,6 +1,51 @@
-# Trabajo Práctico Grupal 2
+# Trabajo Práctico Grupal 3
 ### Desarrollo de sistemas web (front End)
 ### Instituto de Formación Técnica Superior N° 29
+---
+### Mejoras del proyecto Entrega 3: 
+<details>
+  <summary>Click para expandir/colapsar muestra de mejoras</summary>
+  
+  #### 1. Animaciones para transición entre páginas: 
+  Ahora las páginas realizan una pequeña transición de deslizamiento al cargarse.
+
+  | Antes | Despues |
+  | --- | ---|
+  | ![b1](https://github.com/user-attachments/assets/209402bf-1352-411a-9a4e-af7a56299bd3) | ![a12](https://github.com/user-attachments/assets/34d5e758-d793-4dd0-8f34-6820ad5a10be) |
+
+  #### 2. Paginación para API de películas: 
+  Ahora la sección de películas muestra un máximo de 12 cards de películas y se puede navegar para ver el resto de resultados. (Se indica página actual y cantidad de páginas disponibles).
+  | Antes | Despues |
+  | --- | ---|
+  | <img width="1912" height="756" alt="b2" src="https://github.com/user-attachments/assets/89951ae3-5420-40b9-a73d-5de74794a026" /> | ![a2](https://github.com/user-attachments/assets/be2ebd9e-1888-45c8-9a23-8232f1e7560e) |
+
+  #### 3. Botones de redes sociales animados: 
+    
+  | Antes | Despues |
+  | --- | ---|
+  | <img width="706" height="340" alt="b3" src="https://github.com/user-attachments/assets/a39a0390-e41f-44f4-9db3-dc6094ba69f9" /> | ![a3](https://github.com/user-attachments/assets/ce609a0f-5ba1-4877-87c9-99993ba337df) |
+
+  #### 4. Barra de progreso de habilidades: 
+  | Antes | Despues |
+  | --- | ---|
+  | <img width="1444" height="371" alt="b4" src="https://github.com/user-attachments/assets/3f619e65-7a76-4cf1-af5f-d694718508d6" /> | <img width="1697" height="416" alt="a4" src="https://github.com/user-attachments/assets/408ce1b4-1efe-4e06-8e7e-63fa1aa829cf" /> |
+  
+  #### 5. Bitácora Entradas contraibles:
+  Las entradas de la Bitácora ahora se pueden colapsar y expandir. (incluye botón para accionar todas las entradas en simultáneo).
+  | Antes | Despues |
+  | --- | ---|
+  | <img width="932" height="550" alt="b5" src="https://github.com/user-attachments/assets/c7516853-2521-40ea-ad93-118d3d30e974" /> | ![a5](https://github.com/user-attachments/assets/9da7dd2f-dc45-4052-ae12-96831b9d843b) |
+
+  #### 6. Botón animado:
+  | Antes (tp1) | Despues |
+  | --- | ---|
+  | <img width="186" height="178" alt="b6" src="https://github.com/user-attachments/assets/06031664-ccef-4d0d-983d-d0f60761efbb" /> | ![a6](https://github.com/user-attachments/assets/10c8bfed-96a9-4dc9-ab47-d162c7742b4d) |
+
+
+
+
+</details>
+
 ---
 
 ### Estructura del proyecto: 
