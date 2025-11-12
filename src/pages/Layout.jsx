@@ -8,7 +8,7 @@ const Layout = () => {
   return (
     <div id="Layout-container">
       <Sidebar />
-      <main>
+      <main style={{width:"100%"}}>
         <AnimatePresence mode="wait">
           <motion.div
             key={location.pathname + location.search}
