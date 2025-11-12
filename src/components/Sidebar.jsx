@@ -9,7 +9,7 @@ export default function Sidebar() {
   const handleToggle = () => setIsOpen(!isOpen);
 
   return (
-    <div className={`sidebar ${isOpen ? "open" : ""}`}>
+    <div className={`sidebar ${isOpen ? "open" : ""}`} style={{zIndex:"3"}}>
         <header className="ifts-header">
             <Ifts/>
             <ToggleButton isOpen={isOpen} onToggle={handleToggle} />
