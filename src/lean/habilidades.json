@@ -2,26 +2,31 @@
   {
     "id": 1,
     "titulo": "Dominio de Tecnologías Frontend",
-    "info": "Me especializo en la creación de interfaces dinámicas y responsivas utilizando React, junto con un sólido manejo de HTML, CSS y JavaScript. Me enfoco en construir experiencias de usuario claras, atractivas y funcionales."
+    "info": "Me especializo en la creación de interfaces dinámicas y responsivas utilizando React, junto con un sólido manejo de HTML, CSS y JavaScript. Me enfoco en construir experiencias de usuario claras, atractivas y funcionales.",
+    "nivel": 78
   },
   {
     "id": 2,
     "titulo": "Experiencia en Desarrollo Backend",
-    "info": "Cuento con experiencia en Java con Spring Boot y .NET con C#, desarrollando aplicaciones robustas y seguras. También trabajo con la construcción de APIs RESTful, lo que me permite integrar el frontend con el backend de manera eficiente."
+    "info": "Cuento con experiencia en Java con Spring Boot y .NET con C#, desarrollando aplicaciones robustas y seguras. También trabajo con la construcción de APIs RESTful, lo que me permite integrar el frontend con el backend de manera eficiente.",
+    "nivel": 90
   },
   {
     "id": 3,
     "titulo": "Gestión de Bases de Datos",
-    "info": "Manejo tanto bases de datos relacionales como MySQL, como también bases de datos NoSQL como MongoDB. Esto me permite elegir la mejor solución según las necesidades del proyecto y asegurar un acceso a datos rápido y confiable."
+    "info": "Manejo tanto bases de datos relacionales como MySQL, como también bases de datos NoSQL como MongoDB. Esto me permite elegir la mejor solución según las necesidades del proyecto y asegurar un acceso a datos rápido y confiable.",
+    "nivel": 85
   },
   {
     "id": 4,
     "titulo": "Control de Versiones y Colaboración",
-    "info": "Utilizo Git y plataformas como GitHub para mantener un control ordenado de mis proyectos y colaborar efectivamente en equipo. Esto asegura un desarrollo organizado, con historial de cambios claro y buenas prácticas de integración."
+    "info": "Utilizo Git y plataformas como GitHub para mantener un control ordenado de mis proyectos y colaborar efectivamente en equipo. Esto asegura un desarrollo organizado, con historial de cambios claro y buenas prácticas de integración.",
+    "nivel": 95
   },
   {
     "id": 5,
     "titulo": "DevOps y Despliegue en Producción",
-    "info": "Tengo conocimientos en Ansible, Docker y Kubernetes, además de experiencia en CI/CD y servicios en la nube (AWS). Esto me permite automatizar procesos, gestionar entornos de manera eficiente y desplegar aplicaciones de forma segura y escalable."
+    "info": "Tengo conocimientos en Ansible, Docker y Kubernetes, además de experiencia en CI/CD y servicios en la nube (AWS). Esto me permite automatizar procesos, gestionar entornos de manera eficiente y desplegar aplicaciones de forma segura y escalable.",
+    "nivel": 90
   }
 ]

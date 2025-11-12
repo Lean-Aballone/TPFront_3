@@ -35,6 +35,7 @@ const Lean = () => {
                                     key={habilidad.id} 
                                     title={habilidad.titulo} 
                                     info={habilidad.info}
+                                    nivel={habilidad.nivel}
                                 />
                             ))}
                         </About>    
